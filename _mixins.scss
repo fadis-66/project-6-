@@ -1,0 +1,7 @@
+@mixin displayFlex($Align: unset, $Justify: unset, $Direction: unset, $Gap: unset) {
+  display: flex;
+  align-items: $Align;
+  justify-content: $Justify;
+  flex-direction: $Direction;
+  gap: $Gap;
+}
